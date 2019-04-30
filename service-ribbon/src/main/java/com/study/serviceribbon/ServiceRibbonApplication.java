@@ -11,6 +11,10 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * ribbon是一个负载均衡客户端
+ * Hystrix组件，实现了断路器模式
+ */
 @EnableEurekaClient
 @EnableHystrix
 @EnableHystrixDashboard

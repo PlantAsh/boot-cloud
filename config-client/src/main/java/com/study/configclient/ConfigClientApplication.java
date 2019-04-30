@@ -7,6 +7,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 使用配置服务来保存各个服务的配置文件
+ * 分布式配置 获取配置文件
+ */
 @EnableEurekaClient
 @SpringBootApplication
 @RestController

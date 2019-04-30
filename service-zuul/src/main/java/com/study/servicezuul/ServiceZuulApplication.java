@@ -5,6 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
+/**
+ * Zuul的主要功能是路由转发和过滤器
+ */
 @EnableEurekaClient
 @EnableZuulProxy
 @SpringBootApplication
