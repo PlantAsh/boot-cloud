@@ -1,12 +1,14 @@
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://127.0.0.1:8761/eureka/
 server:
   port: 8765
 spring:
   application:
     name: service-feign
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
 feign:
   hystrix:
     enabled: true
